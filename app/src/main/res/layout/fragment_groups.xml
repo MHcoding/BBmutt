@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/color_gray_light"
+    android:layout_height="match_parent"
+    tools:context="za.co.mut.mutelearn.www.bbmut.Groups">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_gray_light"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        tools:context=".Function">
+
+        <ListView
+            android:id="@+id/list_groups"
+            android:layout_weight="1"
+            android:background="@color/color_gray_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_gray_light"
+            android:padding="5dp"
+            android:id="@+id/relativeLayoutGroupBottom">
+
+
+            <LinearLayout
+                android:id="@+id/listFooter"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtInputGroupName"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:padding="3dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="textPersonName"
+                    android:lines="1"
+                    android:background="@drawable/myedittext"
+                    android:singleLine="true" />
+
+
+                <ImageButton
+                    android:id="@+id/btnAddGroup"
+                    android:background="@drawable/mybutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_send" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/loading_bar_groups"
+            android:layout_width="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:indicator="LineScaleParty"
+            android:layout_below="@+id/list_groups"
+            app:indicator_color="#F53700" />
+
+
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_group_add_black_24dp" />
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479137449742",
+    "firebase_url": "https://bbmut-2743c.firebaseio.com",
+    "project_id": "bbmut-2743c",
+    "storage_bucket": "bbmut-2743c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479137449742:android:9f237e9d9ad26dea",
+        "android_client_info": {
+          "package_name": "za.co.mut.mutelearn.www.bbmut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479137449742-v04brtrrqmf8vsd2bmt8reo2d6i67212.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "za.co.mut.mutelearn.www.bbmut",
+            "certificate_hash": "4141a01c83a5199f3dde9e5a5ec09541101599f1"
+          }
+        },
+        {
+          "client_id": "479137449742-4c32kuq9q50vpiipv5on8u7foh8f5jcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWsh6MDeUZxWjGyqwSWD2j2OP7GvS-e8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479137449742-4c32kuq9q50vpiipv5on8u7foh8f5jcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
